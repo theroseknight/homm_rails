@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  resources :preference_profiles#, :path => '/preference-profiles'
+  resources :preference_profiles, :path => '/preference-profiles'
   resources :heros
   resources :creatures
 

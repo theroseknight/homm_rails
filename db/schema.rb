@@ -42,6 +42,7 @@ ActiveRecord::Schema.define(version: 20150929174813) do
 
   create_table "preference_profiles", force: :cascade do |t|
     t.boolean  "show_hexagon_grid_in_combat"
+    t.string   "refresh_defeater_position"
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
   end

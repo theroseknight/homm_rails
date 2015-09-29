@@ -2,7 +2,8 @@ class PreferenceProfilesController < ApplicationController
 
   def create
     new_preference_profile=PreferenceProfile.create!(
-      show_hexagon_grid_in_combat:params[:preference_profile][:show_hexagon_grid_in_combat]
+      show_hexagon_grid_in_combat:params[:preference_profile][:show_hexagon_grid_in_combat],
+      refresh_defeater_position:params[:preference_profile][:refresh_defeater_position]
     )
 		render json:new_preference_profile
 	end
@@ -36,7 +37,7 @@ class PreferenceProfilesController < ApplicationController
   private
 
   def preference_profile_params
-    params.require(:preference_profile).permit(:show_hexagon_grid_in_combat,:created_at,:updated_at)
+    params.require(:preference_profile).permit(:show_hexagon_grid_in_combat,:refresh_defeater_position,:created_at,:updated_at)
   end
 
 end
