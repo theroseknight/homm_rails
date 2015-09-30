@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20150929174813) do
     t.integer  "cost"
     t.string   "special"
     t.integer  "stack_size"
+    t.string   "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

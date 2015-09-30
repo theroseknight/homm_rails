@@ -28,7 +28,8 @@ Creature.create(
   speed: 4,
   cost: 60,
   special: "Immune to jousting",
-  stack_size: 100
+  stack_size: 100,
+  image_url: "pikeman.png"
 )
 
 Creature.create(
@@ -44,7 +45,8 @@ Creature.create(
   speed: 4,
   cost: 100,
   special: "",
-  stack_size: 75
+  stack_size: 75,
+  image_url: "archer.png"
 )
 
 Creature.create(
@@ -60,7 +62,8 @@ Creature.create(
   speed: 6,
   cost: 200,
   special: "Two retaliations",
-  stack_size: 50
+  stack_size: 50,
+  image_url: "griffin.png"
 )
 
 Creature.create(
@@ -76,5 +79,6 @@ Creature.create(
   speed: 5,
   cost: 300,
   special: "",
-  stack_size: 25
+  stack_size: 25,
+  image_url:"swordsman.png"
 )

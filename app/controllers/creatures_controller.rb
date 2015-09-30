@@ -1,17 +1,18 @@
 class CreaturesController < ApplicationController
   def create
     new_creature=create.create!(
-      name: params[:creature][:name]
-      town: params[:creature][:town]
-      level: params[:creature][:level]
-      attack: params[:creature][:attack]
-      defense: params[:creature][:defense]
-      damage_min: params[:creature][:damage_min]
-      damage_max: params[:creature][:damage_max]
-      hp: params[:creature][:hp]
-      speed: params[:creature][:speed]
-      cost: params[:creature][:cost]
-      special: params[:creature][:special]
+      name: params[:creature][:name],
+      town: params[:creature][:town],
+      level: params[:creature][:level],
+      attack: params[:creature][:attack],
+      defense: params[:creature][:defense],
+      damage_min: params[:creature][:damage_min],
+      damage_max: params[:creature][:damage_max],
+      hp: params[:creature][:hp],
+      speed: params[:creature][:speed],
+      cost: params[:creature][:cost],
+      special: params[:creature][:special],
+      image_url: params[:creature][:image_url]
     )
 		render json:new_creature
 	end
@@ -43,6 +44,6 @@ class CreaturesController < ApplicationController
   private
 
   def creature_params
-    params.require(:creature).permit(:name,:town,:level,:attack,:defense,:damage_min,:damage_max,:hp,:speed,:cost,:special,:created_at,:updated_at)
+    params.require(:creature).permit(:name,:town,:level,:attack,:defense,:damage_min,:damage_max,:hp,:speed,:cost,:special,:image_url,:created_at,:updated_at)
   end
 end
