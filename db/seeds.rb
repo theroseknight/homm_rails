@@ -82,3 +82,20 @@ Creature.create(
   stack_size: 25,
   image_url:"swordsman.png"
 )
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"swordsman.png"
+)
