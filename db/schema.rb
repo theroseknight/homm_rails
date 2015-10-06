@@ -31,8 +31,9 @@ ActiveRecord::Schema.define(version: 20150929174813) do
     t.string   "special"
     t.integer  "stack_size"
     t.string   "image_url"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "headshot_url"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
   end
 
   create_table "heros", force: :cascade do |t|

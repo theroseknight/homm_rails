@@ -16,6 +16,7 @@ class CreateCreatures < ActiveRecord::Migration
 
       t.integer :stack_size
       t.string :image_url
+      t.string :headshot_url
 
 
       t.timestamps null: false
