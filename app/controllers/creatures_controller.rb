@@ -18,7 +18,7 @@ class CreaturesController < ApplicationController
 	end
 
   def index
-		@creatures =  Creature.all.to_a
+		@creatures =  Creature.where('hero_id = ?',params[:hero_id])
 		render json:@creatures
 	end
 

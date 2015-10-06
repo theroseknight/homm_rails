@@ -1,7 +1,8 @@
 class HerosController < ApplicationController
   def create
     new_hero=create.create!(
-      battle_portrait_url: params[:hero][:battle_portrait_url]
+      battle_portrait_url: params[:hero][:battle_portrait_url],
+      neutral_aramy:false
     )
 		render json:new_hero
 	end

@@ -12,11 +12,136 @@ PreferenceProfile.create(
 )
 
 Hero.create(
-  battle_portrait_url:"left-hand-hero-1.png"
+  battle_portrait_url:"blank.png",
+  neutral_army:true
+)
+
+Hero.create(
+  battle_portrait_url:"left-hand-hero-1.png",
+  neutral_army:false
 )
 
 Creature.create(
   hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 1,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/static/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 2,
   name: "Pikeman",
   town: "Castle",
   level: 1,
@@ -29,11 +154,11 @@ Creature.create(
   cost: 60,
   special: "Immune to jousting",
   stack_size: 100,
-  image_url: "pikeman.png"
+  image_url: "units/pikeman/static/pikeman.png"
 )
 
 Creature.create(
-  hero_id: 1,
+  hero_id: 2,
   name: "Archer",
   town: "Castle",
   level: 2,
@@ -46,11 +171,11 @@ Creature.create(
   cost: 100,
   special: "",
   stack_size: 75,
-  image_url: "archer.png"
+  image_url: "units/archer/static/archer.png"
 )
 
 Creature.create(
-  hero_id: 1,
+  hero_id: 2,
   name: "Griffin",
   town: "Castle",
   level: 3,
@@ -63,11 +188,11 @@ Creature.create(
   cost: 200,
   special: "Two retaliations",
   stack_size: 50,
-  image_url: "griffin.png"
+  image_url: "units/griffin/static/griffin.png"
 )
 
 Creature.create(
-  hero_id: 1,
+  hero_id: 2,
   name: "Swordsman",
   town: "Castle",
   level: 4,
@@ -80,11 +205,11 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"swordsman.png"
+  image_url:"units/swordsman/static/swordsman.png"
 )
 
 Creature.create(
-  hero_id: 1,
+  hero_id: 2,
   name: "Swordsman",
   town: "Castle",
   level: 4,
@@ -97,5 +222,5 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"swordsman.png"
+  image_url:"units/swordsman/static/swordsman.png"
 )
