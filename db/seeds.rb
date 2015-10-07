@@ -35,7 +35,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -53,7 +53,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -71,7 +71,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -89,7 +89,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -107,7 +107,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -125,7 +125,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -143,7 +143,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -161,7 +161,7 @@ Creature.create(
   cost: 60,
   special: "Immune to jousting",
   stack_size: 100,
-  image_url: "units/pikeman/static/pikeman.png",
+  image_url: "units/pikeman/pikeman_static/1.png",
   headshot_url:"units/pikeman/headshot/pikeman.png"
 )
 
@@ -179,7 +179,7 @@ Creature.create(
   cost: 100,
   special: "",
   stack_size: 75,
-  image_url: "units/archer/static/archer.png",
+  image_url: "units/archer/archer_static/1.png",
   headshot_url:"units/archer/headshot/archer.png"
 )
 
@@ -197,7 +197,7 @@ Creature.create(
   cost: 200,
   special: "Two retaliations",
   stack_size: 50,
-  image_url: "units/griffin/static/griffin.png",
+  image_url: "units/griffin/griffin_static/1.png",
   headshot_url:"units/griffin/headshot/griffin.png"
 )
 
@@ -215,7 +215,7 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
 
@@ -233,6 +233,6 @@ Creature.create(
   cost: 300,
   special: "",
   stack_size: 25,
-  image_url:"units/swordsman/static/swordsman.png",
+  image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
