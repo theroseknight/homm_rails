@@ -236,3 +236,39 @@ Creature.create(
   image_url:"units/swordsman/swordsman_static/1.png",
   headshot_url:"units/swordsman/headshot/swordsman.png"
 )
+
+Creature.create(
+  hero_id: 2,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/swordsman_static/1.png",
+  headshot_url:"units/swordsman/headshot/swordsman.png"
+)
+
+Creature.create(
+  hero_id: 2,
+  name: "Swordsman",
+  town: "Castle",
+  level: 4,
+  attack: 10,
+  defense: 12,
+  damage_min: 6,
+  damage_max: 9,
+  hp: 35,
+  speed: 5,
+  cost: 300,
+  special: "",
+  stack_size: 25,
+  image_url:"units/swordsman/swordsman_static/1.png",
+  headshot_url:"units/swordsman/headshot/swordsman.png"
+)
