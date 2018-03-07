@@ -11,10 +11,27 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150929174813) do
+ActiveRecord::Schema.define(version: 20170331222720) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cities", force: :cascade do |t|
+    t.integer  "county_id"
+    t.string   "name"
+    t.integer  "population"
+    t.integer  "prisoners"
+    t.boolean  "is_unincorporated", default: false
+    t.datetime "created_at",                        null: false
+    t.datetime "updated_at",                        null: false
+  end
+
+  create_table "counties", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "population"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "creatures", force: :cascade do |t|
     t.integer  "hero_id"
@@ -48,6 +65,14 @@ ActiveRecord::Schema.define(version: 20150929174813) do
     t.string   "refresh_defeater_position"
     t.datetime "created_at",                  null: false
     t.datetime "updated_at",                  null: false
+  end
+
+  create_table "unincorporateds", force: :cascade do |t|
+    t.integer  "county_id"
+    t.integer  "population"
+    t.integer  "prisoners"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
